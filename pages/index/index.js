@@ -16,7 +16,7 @@ Page({
    */
   getTodayArticle: function(e) {
     var that = this;
-    wx: wx.request({
+    wx.request({
       url: url + '/today?dev=1',
       method: 'GET',
       success: function(res) {
@@ -41,7 +41,7 @@ Page({
    */
   getRandomArticle: function(e) {
     var that = this;
-    wx: wx.request({
+    wx.request({
       url: url + '/random?dev=1',
       method: 'GET',
       success: function(res) {
