@@ -1,0 +1,16 @@
+/* pages/index/index.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+.article {
+    text-indent: 2em;
+    font-size: 32rpx;
+    color: #454545;
+    line-height: 1.6;
+}
