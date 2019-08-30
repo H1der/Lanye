@@ -2,5 +2,8 @@
 <text class="title">{{title}}</text>
 <text class="author">{{author}}</text>
 <rich-text class="article" nodes="{{content}}"></rich-text>
-<!-- <text>{{content}}</text> -->
+<view class="menu">
+<text bind:tap="getTodayArticle">今日</text>
+<text bind:tap="goHelp">帮助</text>
+</view>
 </view>
