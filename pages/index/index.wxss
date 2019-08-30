@@ -35,4 +35,5 @@
   color: #808080;
   width: 50%;
   text-align: center;
+  display: inline-block;
 }

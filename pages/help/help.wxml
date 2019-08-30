@@ -3,7 +3,7 @@
 <text>下拉刷新随机文章</text>
 <text>右上角「。。。」分享给好友</text>
 <text>项目开源地址：https://github.com/H1der/Lanye</text>
-<text>捐助：</text>
+<text>捐助（单击打开大图长按识别二维码）：</text>
 <image bindtap="bgimg" src="{{imgPath}}"></image>
 </view>
 
