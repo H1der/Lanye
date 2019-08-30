@@ -9,7 +9,11 @@ Page({
       author:'',
       content:''
   },
-  getArticle:function(e){
+
+  /**
+   * 获取今天的文章
+   */
+  getTodayArticle:function(e){
     var that = this;
     wx: wx.request({
       url: 'https://interface.meiriyiwen.com/article/today?dev=1',
@@ -25,13 +29,13 @@ Page({
         })
       }
     })
-  }
-,
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.getArticle();
+    this.getTodayArticle();
   },
 
   /**

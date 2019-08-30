@@ -6,11 +6,18 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-} 
+}
+.container .title{
+  font-size: 45rpx;
+}
+.container .author{
+  margin: 5vh 0;
+}
 
-.article {
+.container .article {
     text-indent: 2em;
-    font-size: 32rpx;
+    font-size: 36rpx;
     color: #454545;
-    line-height: 1.6;
+    line-height: 1.8;
+    padding: 0 5vw;
 }

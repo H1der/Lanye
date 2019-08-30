@@ -1,6 +1,6 @@
 <view class="container">
-<text>{{title}}</text>
-<text>{{author}}</text>
-<rich-text class="article" nodes="{{content}}">
-</rich-text>
+<text class="title">{{title}}</text>
+<text class="author">{{author}}</text>
+<rich-text class="article" nodes="{{content}}"></rich-text>
+<!-- <text>{{content}}</text> -->
 </view>
